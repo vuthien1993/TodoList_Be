@@ -1,0 +1,21 @@
+.today {
+  margin-top: 10px;
+  height: 30px;
+  font-size: 14px;
+}
+.today:hover {
+  cursor: pointer;
+}
+.textBlue {
+  color: #2564cf;
+}
+.textBlue span,
+.later span {
+  padding: 3px;
+}
+.textRed {
+  color: #a80000;
+}
+.textRed span {
+  padding: 3px;
+}

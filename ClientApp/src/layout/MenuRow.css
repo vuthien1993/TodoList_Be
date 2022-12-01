@@ -1,0 +1,270 @@
+.borderNavRow::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.showMyday::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.lineNumber {
+  width: 30%;
+  text-align: right;
+}
+.widthContent {
+  width: 70%;
+}
+.leftColumn {
+  width: 290px;
+  height: calc(100vh - 48px);
+}
+.siderbar {
+  margin-top: 16px;
+  padding: 0px 24px;
+  height: 48px;
+}
+.siderbar i {
+  margin-top: 15px;
+  color: gray;
+  height: 20px;
+  width: 20px;
+}
+.siderbarContent {
+  height: 274px;
+}
+
+.siderbarItem {
+  padding: 10px 24px 0px 24px;
+  height: 44px;
+  display: block;
+}
+.siderbarItemActive {
+  height: 44px;
+  padding: 10px 24px 0px 24px;
+  display: block;
+  background-color: #eff6fc;
+}
+
+.siderbarItem i,
+.siderbarItemActive i {
+  color: gray;
+  height: 20px;
+  width: 20px;
+}
+.siderbarItem span,
+.siderbarItemActive span {
+  font-size: 14px;
+  margin-left: 16px;
+}
+.siderbarItem:hover {
+  cursor: pointer;
+  background: #f5f5f5;
+}
+.main-content {
+  overflow: hidden;
+  height: calc(100vh - 48px);
+  background-color: #faf9f7;
+  box-shadow: 0 0 1px 0 gray;
+  width: calc(100% - 290px);
+}
+.main-content2 {
+  overflow: hidden;
+  height: calc(100vh - 48px);
+  background-color: #faf9f7;
+  box-shadow: 0 0 1px 0 gray;
+  width: 100%;
+}
+
+.main-content1 {
+  overflow: hidden;
+  height: calc(100vh - 48px);
+  background-color: #faf9f7;
+  width: calc(100% - 650px);
+  box-shadow: 0 0 1px 0 gray;
+}
+.main-content3 {
+  overflow: hidden;
+  height: calc(100vh - 48px);
+  background-color: #faf9f7;
+  width: calc(100% - 360px);
+  box-shadow: 0 0 1px 0 gray;
+}
+.tasksDetail {
+  width: 360px;
+  height: calc(100vh - 58px);
+  padding-bottom: 40px;
+  overflow-y: scroll;
+  background: #faf9f7;
+  box-shadow: 0 0 3px 0 gray;
+}
+.tasksDetail i {
+  cursor: pointer;
+}
+.tasksDetailX {
+  top: 0;
+  position: sticky;
+  height: 60px;
+  margin: 0px 20px;
+  background: white;
+}
+.divR {
+  height: 10px;
+  background-color: #faf9f7;
+}
+.nameDetail {
+  margin-left: 12px;
+  margin-top: 5px;
+  width: 50%;
+}
+.startDetail {
+  text-align: right;
+  width: 42%;
+  margin-top: 5px;
+}
+.tasksDetailX i,
+.tasksDetailInput i {
+  padding-right: 10px;
+}
+.tasksDetailInput {
+  margin: 0px 20px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.tasksDetailInput button {
+  color: blue;
+  background: white;
+  border: none;
+}
+.marginLDetail {
+  background: white;
+  padding: 10px;
+}
+.marginLDetail input:focus,
+.marginLDetail input {
+  width: 75%;
+  border: none;
+  outline: 0px;
+}
+.deleteTasks {
+  padding: 0 24px;
+  display: flex;
+  width: 360px;
+  line-height: 58px;
+  justify-content: space-between;
+  background-color: #faf9f7;
+  bottom: 0px;
+  position: fixed;
+}
+.deleteTasks i {
+  margin-left: 20px;
+}
+
+.addtomyday {
+  line-height: 50px;
+  padding: 0px 10px;
+  background: white;
+  margin: 10px 0px;
+  line-height: 52px;
+}
+.addtomyday div {
+  line-height: 50px;
+}
+.borderBottom {
+  border-bottom: 1px solid #e1dfdd;
+}
+.iconDetail {
+  background: white;
+  padding: 0 10px;
+  line-height: 52px;
+}
+.marginCategory {
+  margin: 8px 0;
+}
+.iconDetail input {
+  display: none;
+}
+.hoverdiv div:hover {
+  color: black;
+  background: #f3f2f1;
+}
+.addStep {
+  background: white;
+}
+.addStep::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.borderStep {
+  width: 12.6%;
+  line-height: 50px;
+  height: 50px;
+  padding-left: 12px;
+  background: white;
+}
+.contentStep {
+  width: 87.4%;
+  line-height: 50px;
+  height: 50px;
+  background: white;
+  border-bottom: solid 1px #e8e7e6;
+}
+.nameStep {
+  width: 70%;
+}
+.deleteStep {
+  padding-right: 20px;
+  width: 30%;
+  text-align: right;
+}
+.deleteStep:hover {
+  cursor: pointer;
+}
+
+.addedMyday {
+  color: blue;
+  width: 56%;
+}
+.closeMyday {
+  width: 40%;
+  text-align: right;
+}
+.closeMyday:hover {
+  cursor: pointer;
+}
+@media screen and (max-width: 910px) {
+  .dark {
+    background-color: #aaa9a9 !important;
+  }
+  .leftColumn {
+    width: 200px;
+    height: calc(100vh - 48px);
+    position: fixed;
+    background: white;
+  }
+  .main-content {
+    overflow: hidden;
+    height: calc(100vh - 48px);
+    background-color: #faf9f7;
+    box-shadow: 0 0 1px 0 grey;
+    width: 100%;
+  }
+  .main-content3 {
+    overflow: hidden;
+    height: calc(100vh - 48px);
+    background-color: #faf9f7;
+    width: 100%;
+    box-shadow: 0 0 1px 0 grey;
+  }
+  .tasksDetail {
+    position: fixed;
+    right: 0px;
+    width: 360px;
+    height: calc(100vh - 58px);
+    padding-bottom: 40px;
+    overflow-y: scroll;
+    background: #faf9f7;
+    box-shadow: 0 0 3px 0 grey;
+  }
+}

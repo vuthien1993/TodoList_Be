@@ -1,0 +1,45 @@
+.backgroundSignUp {
+  text-align: center;
+  height: calc(100vh - 48px);
+  background: #faf9f7;
+  position: relative;
+}
+
+.borderSignUp {
+  margin-top: 20px;
+  width: 490px;
+  padding: 10px;
+  border-radius: 14px;
+  background: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49%, -50%);
+}
+.borderSignUp input {
+  border: 1px solid;
+  outline: 0px;
+  margin-top: 2px;
+  width: 100%;
+  height: 3rem;
+}
+.borderSignUp button {
+  background: #333;
+  color: aliceblue;
+  border: none;
+  margin: 10px 0px;
+  width: 100%;
+  height: 3rem;
+}
+.buttonSignUp a {
+  color: aliceblue;
+}
+.borderSignUp a {
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .borderSignUp {
+    width: 100%;
+  }
+}
